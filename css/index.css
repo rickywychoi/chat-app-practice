@@ -5,11 +5,32 @@
 }
 
 body {
-  font: 13px Helvetica, Arial;
+  font-size: 15px;
+}
+
+#title {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2em;
+}
+
+#welcome, #leave {
+  text-align: center;
+  margin: 1em 0;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#typing {
+  text-align: center;
+  position: fixed;
+  margin: 1em auto;
+  left: 0;
+  right: 0;
+  bottom: 65px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 form {
-  background: #000;
+  background: #C4C4C4;
   padding: 3px;
   position: fixed;
   bottom: 0;
@@ -19,15 +40,13 @@ form {
 form input {
   border: 0;
   padding: 10px;
-  width: 90%;
-  margin-right: .5%;
+  /* width: 90%; */
+  font-family: 'Courier Prime', monospace;
 }
 
 form button {
-  width: 9%;
-  background: rgb(130, 224, 255);
-  border: none;
-  padding: 10px;
+  /* width: 8%; */
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #messages {
@@ -38,6 +57,7 @@ form button {
 
 #messages li {
   padding: 5px 10px;
+  font-family: 'Courier Prime', monospace;
 }
 
 #messages li:nth-child(odd) {
